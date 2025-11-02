@@ -1,1 +1,8 @@
-
+CREATE TABLE Users
+(
+	ID INT PRIMARY KEY,
+	FullName VARCHAR(500),
+	Email VARCHAR(100),
+	PhoneNo VARCHAR(50),
+	Password VARCHAR(100)
+)
